@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website - Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gallery</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Image Gallery</h2>
+      <div class="gallery">
+        <!-- Thumbnails linking to full images -->
+        <a href="images/img1_large.jpg" target="_blank"><img src="images/img1_thumb.jpg" alt="Image 1"></a>
+        <a href="images/img2_large.jpg" target="_blank"><img src="images/img2_thumb.jpg" alt="Image 2"></a>
+        <a href="images/img3_large.jpg" target="_blank"><img src="images/img3_thumb.jpg" alt="Image 3"></a>
+      </div>
+    </section>
+    <section>
+      <h2>Featured Video</h2>
+      <!-- Embedded video with controls -->
+      <video controls width="600">
+        <source src="media/sample.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+</body>
+</html>
